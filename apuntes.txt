@@ -1,0 +1,19 @@
+choose a type of classified
+k-nearest:
+    idea--> predict the label of a data by:
+            looking at the 'k' closest labeled data points
+            takin a majority vote
+
+Scikit-learn and predict:
+- all ML models implemented as Python classes
+    - algorithms for learning and predicting
+    - store the info learned from the data
+- training a model on the data = 'fitting' a model to the data
+    -.fit() method
+- to predict the labels of new data: .predict() method
+no missing values
+valores continuos
+
+Measuring model performance
+- fraction of correct predictions / cant of data points
+- split data set: training and test
